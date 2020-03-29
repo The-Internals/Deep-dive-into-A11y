@@ -1,5 +1,5 @@
 # Focus only on keyboard navigation
-
+On tab press add a class on top-level element informing the keyboard navigation is active and on mouse down remove the class. 
 ```js
 componentDidMount() {
   //set state to `true` on TAB key press events
