@@ -24,6 +24,7 @@ onTab(event) {
     FOCUSABLE_ELEMENTS
   );
 
+  // get first and last focusable element
   if (focusableElementsInDialog && focusableElementsInDialog.length) {
     firstFocusableElement = focusableElementsInDialog[0];
     lastFocusableElement =
