@@ -31,6 +31,7 @@ onTab(event) {
       focusableElementsInDialog[focusableElementsInDialog.length - 1];
   }
 
+  // cycle on focusable elements within modal.
   let toFocusElement = null;
   if (event.shiftKey && document.activeElement === firstFocusableElement) {
     toFocusElement = lastFocusableElement;
