@@ -19,6 +19,7 @@ onTab(event) {
   let firstFocusableElement = modal,
     lastFocusableElement = modal;
 
+  // get all focusable elements inside modal
   const focusableElementsInDialog = this.modalRef.querySelectorAll(
     FOCUSABLE_ELEMENTS
   );
